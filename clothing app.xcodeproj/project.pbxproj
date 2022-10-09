@@ -16,6 +16,9 @@
 		3E7816C328E7782400C13DEE /* clothing_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7816C228E7782400C13DEE /* clothing_appTests.swift */; };
 		3E7816CD28E7782400C13DEE /* clothing_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7816CC28E7782400C13DEE /* clothing_appUITests.swift */; };
 		3E7816CF28E7782400C13DEE /* clothing_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7816CE28E7782400C13DEE /* clothing_appUITestsLaunchTests.swift */; };
+		3E7816DC28E786F100C13DEE /* MyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7816DB28E786F100C13DEE /* MyCollectionCell.swift */; };
+		3EDA9DC228EEB6E300373C0A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA9DC128EEB6E300373C0A /* TableViewCell.swift */; };
+		3EDA9DC428F0397B00373C0A /* shopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA9DC328F0397B00373C0A /* shopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3E7816C828E7782400C13DEE /* clothing appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clothing appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7816CC28E7782400C13DEE /* clothing_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothing_appUITests.swift; sourceTree = "<group>"; };
 		3E7816CE28E7782400C13DEE /* clothing_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothing_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E7816DB28E786F100C13DEE /* MyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell.swift; sourceTree = "<group>"; };
+		3EDA9DC128EEB6E300373C0A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3EDA9DC328F0397B00373C0A /* shopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,12 @@
 				3E7816AD28E7782300C13DEE /* SceneDelegate.swift */,
 				3E7816AF28E7782300C13DEE /* ViewController.swift */,
 				3E7816B128E7782300C13DEE /* Main.storyboard */,
+				3EDA9DC328F0397B00373C0A /* shopViewController.swift */,
+				3EDA9DC128EEB6E300373C0A /* TableViewCell.swift */,
 				3E7816B428E7782400C13DEE /* Assets.xcassets */,
 				3E7816B628E7782400C13DEE /* LaunchScreen.storyboard */,
 				3E7816B928E7782400C13DEE /* Info.plist */,
+				3E7816DB28E786F100C13DEE /* MyCollectionCell.swift */,
 			);
 			path = "clothing app";
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDA9DC228EEB6E300373C0A /* TableViewCell.swift in Sources */,
 				3E7816B028E7782300C13DEE /* ViewController.swift in Sources */,
 				3E7816AC28E7782300C13DEE /* AppDelegate.swift in Sources */,
 				3E7816AE28E7782300C13DEE /* SceneDelegate.swift in Sources */,
+				3EDA9DC428F0397B00373C0A /* shopViewController.swift in Sources */,
+				3E7816DC28E786F100C13DEE /* MyCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
